@@ -14,7 +14,7 @@ wallet_name = 'my_temp_wallet'
 # Delete wallet if it already exists
 try:
     wallet_delete(wallet_name, force=True)
-except:
+except Exception:
     pass  # Wallet doesn't exist, which is fine
 
 # Generate a new mnemonic (seed phrase)
