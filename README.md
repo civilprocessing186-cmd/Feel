@@ -8,7 +8,12 @@ This repository demonstrates how to create a Bitcoin wallet using the `bitcoinli
 
 ## Installation
 
-1. Install the required dependencies:
+### Quick Install
+```bash
+pip install bitcoinlib>=0.6.14
+```
+
+Or install from the requirements file:
 ```bash
 pip install -r requirements.txt
 ```
