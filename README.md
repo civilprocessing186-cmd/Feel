@@ -6,6 +6,12 @@ Bitcoin Wallet Creation Example
 
 This repository demonstrates how to create a Bitcoin wallet using the `bitcoinlib` library with support for different witness types (legacy, segwit, p2tr).
 
+## Requirements
+
+- **Python**: 3.7 or higher
+- **Platform**: Compatible with Windows, macOS, and Linux
+- **Dependencies**: bitcoinlib library (automatically installed via pip)
+
 ## Installation
 
 ### Quick Install
